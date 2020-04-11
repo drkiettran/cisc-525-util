@@ -57,7 +57,7 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]your-name@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]kiet@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -120,6 +120,7 @@ export DEV_HOME=/home/student/dev
 export ACTIVEMQ_HOME=$DEV_HOME/activemq
 export FLUME_HOME=$DEV_HOME/flume
 export HIVE_HOME=$DEV_HOME/hive
+export HCAT_HOME=$HIVE_HOME/hcatalog
 export HBASE_HOME=$DEV_HOME/hbase
 export KAFKA_HOME=$DEV_HOME/kafka
 export KNOX_HOME=$DEV_HOME/knox
@@ -131,22 +132,24 @@ export PIG_HOME=$DEV_HOME/pig
 export SENTRY_HOME=$DEV_HOME/sentry
 export SPARK_HOME=$DEV_HOME/spark
 export SQOOP_HOME=$DEV_HOME/sqoop
+export SQOOP_CONF_DIR=$SQOOP_HOME/conf
+export SQOOP_CLASS_PATH=$SQOOP_CONF_DIR
 export STORM_HOME=$DEV_HOME/storm
 export ZOOKEEPER_HOME=$DEV_HOME/zookeeper
-export OC_HOME=$DEV_HOME/oc
+export ZOOKEEPER_INSTALL=$DEV_HOME/zookeeper
+export OOZIE_HOME=$DEV_HOME/oozie
 
 export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH
 export PYSPARK_DRIVER_PYTHON="jupyter"
 export PYSPARK_DRIVER_PYTHON_OPTS="notebook"
 export PYSPARK_PYTHON=python3
-export PATH=$SPARK_HOME:$PATH
 
 export HADOOP_HOME=/usr/local/hadoop
-export HADOOP_CONF_DIR=/usr/local/hadoop/etc/hadoop
-export HADOOP_MAPRED_HOME=/usr/local/hadoop
-export HADOOP_COMMON_HOME=/usr/local/hadoop
-export HADOOP_HDFS_HOME=/usr/local/hadoop
-export YARN_HOME=/usr/local/hadoop
+export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
+export HADOOP_MAPRED_HOME=$HADOOP_HOME
+export HADOOP_COMMON_HOME=$HADOOP_HOME
+export HADOOP_HDFS_HOME=$HADOOP_HOME
+export YARN_HOME=$HADOOP_HOME
 export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
 export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib"
 export HADOOP_PID_DIR=$HADOOP_HOME/hadoop2_data/hdfs/pid
@@ -171,4 +174,4 @@ export PATH=$PATH:$SENTRY_HOME/bin
 export PATH=$PATH:$ZOOKEEPER_HOME/bin
 export PATH=$PATH:$MAVEN_HOME/bin
 export PATH=$PATH:/home/student/.local/bin
-export PATH=$PATH:$OC_HOME
+export PATH=$PATH:$OOZIE_HOME/bin
