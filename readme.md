@@ -26,6 +26,7 @@ Follow the following instructions:
 - Import the appliance downloaded from step above
 - Download and extract dev.zip file. Make sure to extract into the /home/student/dev folder.
 - Update the /home/student/.bashrc with content of the 'bashrc' file located in this folder here.
+- Update **`YOUR_FIRST_NAME_HERE`** at line 60 of the .bashrc file to your actual first name.
 
 
 Exmaple only:
