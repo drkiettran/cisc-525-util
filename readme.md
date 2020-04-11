@@ -1,6 +1,11 @@
 # CISC 525 - Big Data Architecture - Summer 2020
+This file is updated each semester and it is used as a starting point the the class.
+
+Last updated: `Saturday 11 April 2020`
 
 ## Important links:
+You can download the airline performance data, the virtual machine (VM) and all 
+the necessary tools for the CISC 525 Big Data Architecture class.
 
 ### Airline performance data is located here:
   - https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HG7NV7
