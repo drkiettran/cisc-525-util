@@ -1,13 +1,399 @@
-.
-├── final
-├── homework
-│   ├── hw_1
-│   │   └── hw_1_ex_1
-│   ├── hw_2
-│   ├── hw_3
-│   ├── hw_4
-│   └── hw_5
-├── midterm
-└── project
+/home/student/dev
+├── activemq
+│   ├── activemq-all-5.15.9.jar
+│   ├── bin
+│   ├── conf
+│   ├── data
+│   ├── docs
+│   ├── examples
+│   ├── lib
+│   ├── LICENSE
+│   ├── NOTICE
+│   ├── README.txt
+│   ├── tmp
+│   ├── webapps
+│   └── webapps-demo
+├── eclipse
+│   ├── artifacts.xml
+│   ├── configuration
+│   ├── dropins
+│   ├── eclipse
+│   ├── eclipse.ini
+│   ├── features
+│   ├── icon.xpm
+│   ├── p2
+│   ├── plugins
+│   └── readme
+├── elk-7.6.1
+│   ├── elasticsearch-7.6.1
+│   ├── kibana-7.6.1-linux-x86_64
+│   └── logstash-7.6.1
+├── flume
+│   ├── bin
+│   ├── CHANGELOG
+│   ├── conf
+│   ├── DEVNOTES
+│   ├── doap_Flume.rdf
+│   ├── docs
+│   ├── lib
+│   ├── LICENSE
+│   ├── NOTICE
+│   ├── README.md
+│   ├── RELEASE-NOTES
+│   └── tools
+├── hbase
+│   ├── bin
+│   ├── CHANGES.md
+│   ├── conf
+│   ├── docs
+│   ├── hbase-webapps
+│   ├── LEGAL
+│   ├── lib
+│   ├── LICENSE.txt
+│   ├── logs
+│   ├── NOTICE.txt
+│   ├── README.txt
+│   └── RELEASENOTES.md
+├── hive
+│   ├── bin
+│   ├── binary-package-licenses
+│   ├── conf
+│   ├── derby.log
+│   ├── examples
+│   ├── hcatalog
+│   ├── jdbc
+│   ├── lib
+│   ├── LICENSE
+│   ├── metastore_db
+│   ├── NOTICE
+│   ├── RELEASE_NOTES.txt
+│   └── scripts
+├── idea
+│   ├── bin
+│   ├── build.txt
+│   ├── Install-Linux-tar.txt
+│   ├── jbr
+│   ├── lib
+│   ├── license
+│   ├── LICENSE.txt
+│   ├── NOTICE.txt
+│   ├── plugins
+│   ├── product-info.json
+│   └── redist
+├── kafka
+│   ├── bin
+│   ├── config
+│   ├── libs
+│   ├── LICENSE
+│   ├── logs
+│   ├── NOTICE
+│   ├── site-docs
+│   └── Untitled.ipynb
+├── knox
+│   ├── bin
+│   ├── CHANGES
+│   ├── conf
+│   ├── data
+│   ├── dep
+│   ├── ext
+│   ├── ISSUES
+│   ├── lib
+│   ├── LICENSE
+│   ├── logs
+│   ├── NOTICE
+│   ├── pids
+│   ├── README
+│   ├── samples
+│   └── templates
+├── knoxshell
+│   ├── bin
+│   ├── conf
+│   ├── LICENSE
+│   ├── NOTICE
+│   ├── README
+│   └── samples
+├── mahout
+│   ├── bin
+│   ├── buildtools
+│   ├── community
+│   ├── conf
+│   ├── core
+│   ├── DEPENDENCIES
+│   ├── distribution
+│   ├── doap_Mahout.rdf
+│   ├── engine
+│   ├── examples
+│   ├── experimental
+│   ├── LICENSE
+│   ├── LICENSE.txt
+│   ├── NOTICE
+│   ├── NOTICE.txt
+│   ├── pom.xml
+│   ├── README.md
+│   └── website
+├── maven
+│   ├── bin
+│   ├── boot
+│   ├── conf
+│   ├── lib
+│   ├── LICENSE
+│   ├── NOTICE
+│   └── README.txt
+├── mysql-jdbc
+│   ├── build.xml
+│   ├── CHANGES
+│   ├── COPYING
+│   ├── mysql-connector-java-5.1.48-bin.jar
+│   ├── mysql-connector-java-5.1.48.jar
+│   ├── README
+│   ├── README.txt
+│   └── src
+├── nifi-1.11.4
+│   ├── bin
+│   ├── conf
+│   ├── docs
+│   ├── extensions
+│   ├── lib
+│   ├── LICENSE
+│   ├── NOTICE
+│   └── README
+├── oc
+│   ├── kubectl
+│   ├── LICENSE
+│   ├── oc
+│   └── README.md
+├── oozie
+│   ├── bin
+│   ├── conf
+│   ├── data
+│   ├── derby.log
+│   ├── docs.zip
+│   ├── embedded-oozie-server
+│   ├── examples
+│   ├── lib -> /home/student/dev/oozie/embedded-oozie-server/webapp/WEB-INF/lib
+│   ├── libext
+│   ├── libtools
+│   ├── LICENSE.txt
+│   ├── logs
+│   ├── NOTICE.txt
+│   ├── oozie-client-5.2.0.tar.gz
+│   ├── oozie-core
+│   ├── oozie-examples.tar.gz
+│   ├── oozie-sharelib-5.2.0.tar.gz
+│   ├── README.md
+│   └── release-log.txt
+├── oozie-src
+│   ├── bin
+│   ├── client
+│   ├── core
+│   ├── distro
+│   ├── docs
+│   ├── examples
+│   ├── fluent-job
+│   ├── LICENSE.txt
+│   ├── minitest
+│   ├── NOTICE.txt
+│   ├── pom.xml
+│   ├── README.md
+│   ├── release-log.txt
+│   ├── server
+│   ├── sharelib
+│   ├── source-headers.txt
+│   ├── src
+│   ├── target
+│   ├── tools
+│   ├── webapp
+│   └── zookeeper-security-tests
+├── phoenix
+│   ├── bin
+│   ├── examples
+│   ├── LICENSE
+│   ├── NOTICE
+│   ├── phoenix-5.0.0-HBase-2.0-client.jar
+│   ├── phoenix-5.0.0-HBase-2.0-hive.jar
+│   ├── phoenix-5.0.0-HBase-2.0-pig.jar
+│   ├── phoenix-5.0.0-HBase-2.0-queryserver.jar
+│   ├── phoenix-5.0.0-HBase-2.0-server.jar
+│   ├── phoenix-5.0.0-HBase-2.0-thin-client.jar
+│   ├── phoenix-core-5.0.0-HBase-2.0.jar
+│   ├── phoenix-core-5.0.0-HBase-2.0-sources.jar
+│   ├── phoenix-core-5.0.0-HBase-2.0-tests.jar
+│   ├── phoenix-flume-5.0.0-HBase-2.0.jar
+│   ├── phoenix-flume-5.0.0-HBase-2.0-sources.jar
+│   ├── phoenix-flume-5.0.0-HBase-2.0-tests.jar
+│   ├── phoenix-hive-5.0.0-HBase-2.0.jar
+│   ├── phoenix-hive-5.0.0-HBase-2.0-sources.jar
+│   ├── phoenix-hive-5.0.0-HBase-2.0-tests.jar
+│   ├── phoenix-kafka-5.0.0-HBase-2.0.jar
+│   ├── phoenix-kafka-5.0.0-HBase-2.0-minimal.jar
+│   ├── phoenix-kafka-5.0.0-HBase-2.0-sources.jar
+│   ├── phoenix-kafka-5.0.0-HBase-2.0-tests.jar
+│   ├── phoenix-load-balancer-5.0.0-HBase-2.0.jar
+│   ├── phoenix-load-balancer-5.0.0-HBase-2.0-tests.jar
+│   ├── phoenix-pherf-5.0.0-HBase-2.0.jar
+│   ├── phoenix-pherf-5.0.0-HBase-2.0-minimal.jar
+│   ├── phoenix-pherf-5.0.0-HBase-2.0-sources.jar
+│   ├── phoenix-pherf-5.0.0-HBase-2.0-tests.jar
+│   ├── phoenix-pig-5.0.0-HBase-2.0.jar
+│   ├── phoenix-pig-5.0.0-HBase-2.0-sources.jar
+│   ├── phoenix-pig-5.0.0-HBase-2.0-tests.jar
+│   ├── phoenix-queryserver-5.0.0-HBase-2.0.jar
+│   ├── phoenix-queryserver-5.0.0-HBase-2.0-sources.jar
+│   ├── phoenix-queryserver-5.0.0-HBase-2.0-tests.jar
+│   ├── phoenix-queryserver-client-5.0.0-HBase-2.0.jar
+│   ├── phoenix-queryserver-client-5.0.0-HBase-2.0-sources.jar
+│   ├── phoenix-queryserver-client-5.0.0-HBase-2.0-tests.jar
+│   ├── phoenix-spark-5.0.0-HBase-2.0.jar
+│   ├── phoenix-spark-5.0.0-HBase-2.0-javadoc.jar
+│   ├── phoenix-spark-5.0.0-HBase-2.0-sources.jar
+│   ├── phoenix-spark-5.0.0-HBase-2.0-tests.jar
+│   ├── phoenix-tracing-webapp-5.0.0-HBase-2.0.jar
+│   ├── phoenix-tracing-webapp-5.0.0-HBase-2.0-runnable.jar
+│   ├── phoenix-tracing-webapp-5.0.0-HBase-2.0-sources.jar
+│   ├── phoenix-tracing-webapp-5.0.0-HBase-2.0-tests.jar
+│   ├── python
+│   └── README.md
+├── pig
+│   ├── bin
+│   ├── build.xml
+│   ├── CHANGES.txt
+│   ├── conf
+│   ├── contrib
+│   ├── docs
+│   ├── ivy
+│   ├── ivy.xml
+│   ├── legacy
+│   ├── lib
+│   ├── lib-src
+│   ├── license
+│   ├── LICENSE.txt
+│   ├── NOTICE.txt
+│   ├── pig-0.17.0-core-h2.jar
+│   ├── README.txt
+│   ├── RELEASE_NOTES.txt
+│   ├── scripts
+│   ├── shims
+│   ├── src
+│   ├── test
+│   └── tutorial
+├── Postman
+│   ├── app
+│   ├── log.txt
+│   ├── Postman -> ./app/Postman
+│   ├── Postman-1585096242554-old
+│   └── Postman-1585096242554.tar.gz
+├── pycharm
+│   ├── bin
+│   ├── build.txt
+│   ├── help
+│   ├── index
+│   ├── Install-Linux-tar.txt
+│   ├── jbr
+│   ├── lib
+│   ├── license
+│   ├── plugins
+│   └── product-info.json
+├── sentry
+│   ├── bin
+│   ├── CHANGELOG.txt
+│   ├── conf
+│   ├── lib
+│   ├── licences
+│   ├── LICENSE.txt
+│   ├── NOTICE.txt
+│   ├── README_license.txt
+│   ├── README.md
+│   └── scripts
+├── spark
+│   ├── bin
+│   ├── conf
+│   ├── data
+│   ├── examples
+│   ├── jars
+│   ├── kubernetes
+│   ├── LICENSE
+│   ├── licenses
+│   ├── NOTICE
+│   ├── python
+│   ├── R
+│   ├── README.md
+│   ├── RELEASE
+│   ├── sbin
+│   ├── Untitled1.ipynb
+│   ├── Untitled2.ipynb
+│   ├── Untitled.ipynb
+│   └── yarn
+├── sqoop
+│   ├── bin
+│   ├── build.xml
+│   ├── CHANGELOG.txt
+│   ├── COMPILING.txt
+│   ├── conf
+│   ├── docs
+│   ├── ivy
+│   ├── ivy.xml
+│   ├── lib
+│   ├── LICENSE.txt
+│   ├── NOTICE.txt
+│   ├── pom-old.xml
+│   ├── README.txt
+│   ├── sqoop-1.4.7.jar
+│   ├── sqoop-patch-review.py
+│   ├── sqoop-test-1.4.7.jar
+│   ├── src
+│   └── testdata
+├── storm
+│   ├── bin
+│   ├── conf
+│   ├── DEPENDENCY-LICENSES
+│   ├── examples
+│   ├── external
+│   ├── extlib
+│   ├── extlib-daemon
+│   ├── lib
+│   ├── lib-tools
+│   ├── lib-webapp
+│   ├── lib-worker
+│   ├── LICENSE
+│   ├── licenses
+│   ├── log4j2
+│   ├── NOTICE
+│   ├── public
+│   ├── README.markdown
+│   ├── RELEASE
+│   └── SECURITY.md
+├── util
+│   ├── data
+│   ├── prepare-hadoop-data.bash
+│   ├── start-hadoop.bash
+│   ├── stop-hadoop.bash
+│   └── verify-data.bash
+├── vscode
+│   ├── bin
+│   ├── chrome_100_percent.pak
+│   ├── chrome_200_percent.pak
+│   ├── chrome-sandbox
+│   ├── code
+│   ├── icudtl.dat
+│   ├── libEGL.so
+│   ├── libffmpeg.so
+│   ├── libGLESv2.so
+│   ├── locales
+│   ├── natives_blob.bin
+│   ├── resources
+│   ├── resources.pak
+│   ├── snapshot_blob.bin
+│   ├── swiftshader
+│   └── v8_context_snapshot.bin
+└── zookeeper
+    ├── bin
+    ├── conf
+    ├── docs
+    ├── lib
+    ├── LICENSE.txt
+    ├── logs
+    ├── NOTICE.txt
+    ├── README.md
+    └── README_packaging.txt
 
-10 directories, 0 files
+207 directories, 189 files
