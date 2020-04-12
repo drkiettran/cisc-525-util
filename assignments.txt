@@ -1,0 +1,13 @@
+/home/student/assignments
+├── final
+├── homework
+│   ├── hw_1
+│   │   └── hw_1_ex_1
+│   ├── hw_2
+│   ├── hw_3
+│   ├── hw_4
+│   └── hw_5
+├── midterm
+└── project
+
+10 directories, 0 files
