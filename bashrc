@@ -6,8 +6,7 @@
 case $- in
     *i*) ;;
       *) return;;
-esac
-
+esac 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
@@ -57,7 +56,7 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]YOUR_FIRST_NAME_HERE@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]kiet@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -116,62 +115,28 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export DEV_HOME=/home/student/dev
-export ACTIVEMQ_HOME=$DEV_HOME/activemq
-export FLUME_HOME=$DEV_HOME/flume
-export HIVE_HOME=$DEV_HOME/hive
-export HCAT_HOME=$HIVE_HOME/hcatalog
-export HBASE_HOME=$DEV_HOME/hbase
-export KAFKA_HOME=$DEV_HOME/kafka
-export KNOX_HOME=$DEV_HOME/knox
-export KNOX_SHELL_HOME=$DEV_HOME/knoxshell
-export MAHOUT_HOME=$DEV_HOME/maven
-export MAVEN_HOME=$DEV_HOME/maven
-export PHOENIX_HOME=$DEV_HOME/phoenix
-export PIG_HOME=$DEV_HOME/pig
-export SENTRY_HOME=$DEV_HOME/sentry
-export SPARK_HOME=$DEV_HOME/spark
-export SQOOP_HOME=$DEV_HOME/sqoop
-export SQOOP_CONF_DIR=$SQOOP_HOME/conf
-export SQOOP_CLASS_PATH=$SQOOP_CONF_DIR
-export STORM_HOME=$DEV_HOME/storm
-export ZOOKEEPER_HOME=$DEV_HOME/zookeeper
-export ZOOKEEPER_INSTALL=$DEV_HOME/zookeeper
-export OOZIE_HOME=$DEV_HOME/oozie
-
-export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH
-export PYSPARK_DRIVER_PYTHON="jupyter"
-export PYSPARK_DRIVER_PYTHON_OPTS="notebook"
-export PYSPARK_PYTHON=python3
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 
 export HADOOP_HOME=/usr/local/hadoop
-export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
+export HADOOP_INSTALL=$HADOOP_HOME
 export HADOOP_MAPRED_HOME=$HADOOP_HOME
 export HADOOP_COMMON_HOME=$HADOOP_HOME
 export HADOOP_HDFS_HOME=$HADOOP_HOME
 export YARN_HOME=$HADOOP_HOME
 export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
-export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib"
-export HADOOP_PID_DIR=$HADOOP_HOME/hadoop2_data/hdfs/pid
+export PATH=$PATH:$HADOOP_HOME/sbin:$HADOOP_HOME/bin
+export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
 
-readlink -f /usr/bin/java | sed "s:bin/java::"
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 
-export PATH=$PATH:$JAVA_HOME/bin
-export PATH=$PATH:$HADOOP_HOME/bin
-export PATH=$PATH:$PIG_HOME/bin
-export PATH=$PATH:$KAFKA_HOME/bin
-export PATH=$PATH:$FLUME_HOME/bin
-export PATH=$PATH:$PHOENIX_HOME/bin
-export PATH=$PATH:$KNOX_HOME/bin
-export PATH=$PATH:$KNOX_SHELL_HOME/bin
-export PATH=$PATH:$HIVE_HOME/bin
-export PATH=$PATH:$MAHOUT_HOME/bin
-export PATH=$PATH:$HBASE_HOME/bin
-export PATH=$PATH:$SPARK_HOME/bin
-export PATH=$PATH:$SQOOP_HOME/bin
-export PATH=$PATH:$SENTRY_HOME/bin
-export PATH=$PATH:$ZOOKEEPER_HOME/bin
-export PATH=$PATH:$MAVEN_HOME/bin
-export PATH=$PATH:/home/student/.local/bin
-export PATH=$PATH:$OOZIE_HOME/bin
+export ACTIVEMQ_HOME=/home/student/tools/apache-activemq
+export FLUME_HOME=/home/student/tools/apache-flume
+export HIVE_HOME=/home/student/tools/apache-hive
+export ZOOKEEPER_HOME=/home/student/tools/apache-zookeeper
+export HBASE_HOME=/home/student/tools/hbase
+export HBASE_CLIENT_HOME=/home/student/tools/hbase-client
+export KAFKA_HOME=/home/student/tools/kafka
+export PIG_HOME=/home/students/tools/pib
+export SPARK_HOME=/home/student/tools/spark
+export SQOOP_HOME=/home/student/tools/sqoop
+export SOLR_HOME=/home/students/tools/slor
+
