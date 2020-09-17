@@ -22,6 +22,9 @@ the necessary tools for the CISC 525 Big Data Architecture class.
 ## tools.zip file:
   - https://myharrisburgu-my.sharepoint.com/:u:/g/personal/ktran_harrisburgu_edu/EYsB6qZbmaVPoQ6Co-ayXmQBkKVUopOcQ6_gKMFSjBqtig
   
+## zookeeper.zip file:
+  - https://myharrisburgu-my.sharepoint.com/:u:/g/personal/ktran_harrisburgu_edu/EblLxxffOJNBj8KFjLVTUqQBh4Q0rZbSN59zcH-DYptr7A?e=g6bxIh
+  
 ## Instructions
 Follow the following instructions:
 - Download & Install Oracle Virtual Box software and the 'extension pack'
