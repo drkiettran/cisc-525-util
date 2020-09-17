@@ -13,11 +13,14 @@ the necessary tools for the CISC 525 Big Data Architecture class.
 ### Oracle Virtual Box:
   - https://www.virtualbox.org/
   
-### Ubuntu 18.04 VM for the class is located here (Expired June 10 2020):
-  - https://myharrisburgu-my.sharepoint.com/:u:/g/personal/ktran_harrisburgu_edu/EYf6yWX70OhFuApUKBf8RZIB3dGPWHc4eOOSGlXUlaNeFA?e=JsxCXx
+### Ubuntu 18.04 VM for the class is located here:
+  - https://myharrisburgu-my.sharepoint.com/:u:/g/personal/ktran_harrisburgu_edu/EYf6yWX70OhFuApUKBf8RZIB7poZa28tamHe17wdeGZINw?e=N3771T
   
-### dev.zip file:
-  - https://myharrisburgu-my.sharepoint.com/:u:/g/personal/ktran_harrisburgu_edu/EYAB7kTw0VVNq9ll8UGVyCEBPlA4oPrKkiKaT3SV8Isp-w?e=uykjFc
+### hadoop.zip file:
+  - https://myharrisburgu-my.sharepoint.com/:u:/g/personal/ktran_harrisburgu_edu/EZspkkfil1dPi7EpXviz3L8BY6pNTRcZTmErszd2p9nqPQ?e=e1t06I
+
+## tools.zip file:
+  - https://myharrisburgu-my.sharepoint.com/:u:/g/personal/ktran_harrisburgu_edu/EUxdOrtS-U1Ekyv_iwV04kMBIV6m2pT7SLic-72dPT8SHQ?e=gC2HKR
   
 ## Instructions
 Follow the following instructions:
