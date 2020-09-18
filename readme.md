@@ -1,4 +1,4 @@
-# CISC 525 - Big Data Architecture - Summer 2020
+# CISC 525 - Big Data Architecture - Fall 2020
 This file is updated each semester and it is used as a starting point the the class.
 
 Last updated: **`Saturday 11 April 2020`**
@@ -97,7 +97,7 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]YOUR_FIRST_NAME_HERE@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -156,40 +156,34 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export DEV_HOME=/home/student/dev
-export ACTIVEMQ_HOME=$DEV_HOME/activemq
-export FLUME_HOME=$DEV_HOME/flume
-export HIVE_HOME=$DEV_HOME/hive
+export TOOLS_HOME=/home/student/tools
+
+export ACTIVEMQ_HOME=$TOOLS_HOME/activemq
+export FLUME_HOME=$TOOLS_HOME/flume
+export HBASE_HOME=$TOOLS_HOME/hbase
+export HIVE_HOME=$TOOLS_HOME/hive
 export HCAT_HOME=$HIVE_HOME/hcatalog
-export HBASE_HOME=$DEV_HOME/hbase
-export KAFKA_HOME=$DEV_HOME/kafka
-export KNOX_HOME=$DEV_HOME/knox
-export KNOX_SHELL_HOME=$DEV_HOME/knoxshell
-export MAHOUT_HOME=$DEV_HOME/maven
-export MAVEN_HOME=$DEV_HOME/maven
-export PHOENIX_HOME=$DEV_HOME/phoenix
-export PIG_HOME=$DEV_HOME/pig
-export SENTRY_HOME=$DEV_HOME/sentry
-export SPARK_HOME=$DEV_HOME/spark
-export SQOOP_HOME=$DEV_HOME/sqoop
-export SQOOP_CONF_DIR=$SQOOP_HOME/conf
-export SQOOP_CLASS_PATH=$SQOOP_CONF_DIR
-export STORM_HOME=$DEV_HOME/storm
-export ZOOKEEPER_HOME=$DEV_HOME/zookeeper
-export ZOOKEEPER_INSTALL=$DEV_HOME/zookeeper
-export OOZIE_HOME=$DEV_HOME/oozie
+export KAFKA_HOME=$TOOLS_HOME/kafka
+export LUCENE_HOME=$TOOLS_HOME/lucene
+export MAVEN_HOME=$TOOLS_HOME/maven
+export PIG_HOME=$TOOLS_HOME/pig
+export SOLR_HOME=$TOOLS_HOME/solr
+export SPARK_HOME=$TOOLS_HOME/spark
+export SQOOP_HOME=$TOOLS_HOME/sqoop
+export ZOOKEEPER_HOME=$TOOLS_HOME/zookeeper
 
 export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH
 export PYSPARK_DRIVER_PYTHON="jupyter"
 export PYSPARK_DRIVER_PYTHON_OPTS="notebook"
 export PYSPARK_PYTHON=python3
+export PATH=$SPARK_HOME:$PATH
 
 export HADOOP_HOME=/usr/local/hadoop
-export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
-export HADOOP_MAPRED_HOME=$HADOOP_HOME
-export HADOOP_COMMON_HOME=$HADOOP_HOME
-export HADOOP_HDFS_HOME=$HADOOP_HOME
-export YARN_HOME=$HADOOP_HOME
+export HADOOP_CONF_DIR=/usr/local/hadoop/etc/hadoop
+export HADOOP_MAPRED_HOME=/usr/local/hadoop
+export HADOOP_COMMON_HOME=/usr/local/hadoop
+export HADOOP_HDFS_HOME=/usr/local/hadoop
+export YARN_HOME=/usr/local/hadoop
 export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
 export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib"
 export HADOOP_PID_DIR=$HADOOP_HOME/hadoop2_data/hdfs/pid
@@ -199,20 +193,18 @@ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 
 export PATH=$PATH:$JAVA_HOME/bin
 export PATH=$PATH:$HADOOP_HOME/bin
-export PATH=$PATH:$PIG_HOME/bin
-export PATH=$PATH:$KAFKA_HOME/bin
+
 export PATH=$PATH:$FLUME_HOME/bin
-export PATH=$PATH:$PHOENIX_HOME/bin
-export PATH=$PATH:$KNOX_HOME/bin
-export PATH=$PATH:$KNOX_SHELL_HOME/bin
-export PATH=$PATH:$HIVE_HOME/bin
-export PATH=$PATH:$MAHOUT_HOME/bin
 export PATH=$PATH:$HBASE_HOME/bin
+export PATH=$PATH:$HIVE_HOME/bin
+export PATH=$PATH:$KAFKA_HOME/bin
+export PATH=$PATH:$LUCENE_HOME/bin
+export PATH=$PATH:$PIG_HOME/bin
+export PATH=$PATH:$SOLR_HOME/bin
 export PATH=$PATH:$SPARK_HOME/bin
 export PATH=$PATH:$SQOOP_HOME/bin
-export PATH=$PATH:$SENTRY_HOME/bin
 export PATH=$PATH:$ZOOKEEPER_HOME/bin
+
 export PATH=$PATH:$MAVEN_HOME/bin
 export PATH=$PATH:/home/student/.local/bin
-export PATH=$PATH:$OOZIE_HOME/bin
 ```
