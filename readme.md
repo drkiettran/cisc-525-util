@@ -20,10 +20,10 @@ the necessary tools for the CISC 525 Big Data Architecture class.
   - https://myharrisburgu-my.sharepoint.com/:u:/g/personal/ktran_harrisburgu_edu/EZspkkfil1dPi7EpXviz3L8BY6pNTRcZTmErszd2p9nqPQ?e=e1t06I
 
 ## tools.zip file:
-  - https://myharrisburgu-my.sharepoint.com/:u:/g/personal/ktran_harrisburgu_edu/EYsB6qZbmaVPoQ6Co-ayXmQBkKVUopOcQ6_gKMFSjBqtig
+  - https://myharrisburgu-my.sharepoint.com/:u:/g/personal/ktran_harrisburgu_edu/ESg7-cgX28BBoW_b4BM7-boBExnonv2B5pPRiS588lDeRw?e=yq6muj
   
-## zookeeper.zip file:
-  - https://myharrisburgu-my.sharepoint.com/:u:/g/personal/ktran_harrisburgu_edu/EblLxxffOJNBj8KFjLVTUqQBh4Q0rZbSN59zcH-DYptr7A?e=g6bxIh
+## devtools.zip file:
+  - https://myharrisburgu-my.sharepoint.com/:u:/g/personal/ktran_harrisburgu_edu/EbdeY4yGc9tOgtXLa5YHBq4BBhwqrxVh54_nXkNqlhMsDg?e=IpXqgS
   
 ## Instructions
 Follow the following instructions:
