@@ -1,7 +1,7 @@
 # CISC 525 - Big Data Architecture - Fall 2020
 This file is updated each semester and it is used as a starting point the the class.
 
-Last updated: **`Saturday 11 April 2020`**
+Last updated: **`23 September 2020`**
 
 ## Important links:
 You can download the airline performance data, the virtual machine (VM) and all 
