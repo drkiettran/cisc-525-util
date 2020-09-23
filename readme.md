@@ -1,4 +1,4 @@
-# CISC 525 - Big Data Architecture - Fall 2020
+# CISC 525 - Big Data Architecture - Spring 2021
 This file is updated each semester and it is used as a starting point the the class.
 
 Last updated: **`23 September 2020`**
@@ -13,8 +13,8 @@ the necessary tools for the CISC 525 Big Data Architecture class.
 ### Oracle Virtual Box:
   - https://www.virtualbox.org/
   
-### Ubuntu 18.04 VM for the class is located here:
-  - https://myharrisburgu-my.sharepoint.com/:u:/g/personal/ktran_harrisburgu_edu/EYf6yWX70OhFuApUKBf8RZIB7poZa28tamHe17wdeGZINw?e=N3771T
+### Ubuntu 18.04 VM for the class is located here (Spring 2021):
+  - https://myharrisburgu-my.sharepoint.com/:u:/g/personal/ktran_harrisburgu_edu/EeOpBEJHGXNDn5Cj4-j19RYBQPHSdjmf6V1wM7nizr2kvg?e=JLZFU1
   
 ### hadoop.zip file:
   - https://myharrisburgu-my.sharepoint.com/:u:/g/personal/ktran_harrisburgu_edu/EZspkkfil1dPi7EpXviz3L8BY6pNTRcZTmErszd2p9nqPQ?e=e1t06I
