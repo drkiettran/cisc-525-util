@@ -1,30 +1,30 @@
 # CISC 525 - Big Data Architecture - Spring 2021
 This file is updated each semester and it is used as a starting point the the class.
 
-Last updated: **`23 September 2020`**
+Last updated: **`21 December 2020`**
 
 ## Important links:
 You can download the airline performance data, the virtual machine (VM) and all 
 the necessary tools for the CISC 525 Big Data Architecture class.
 
-### Airline performance data is located here:
-  - https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HG7NV7
-
 ### Oracle Virtual Box:
   - https://www.virtualbox.org/
   
-### Ubuntu 20.04 VM for the class is located here (Spring 2021):
-  - https://myharrisburgu-my.sharepoint.com/:u:/g/personal/ktran_harrisburgu_edu/Ef-4i3nGwDdHtMnmvhfZneQB-EE5O4Hx4NjpHmMIIEgDxQ?e=B3mAIr
+### Ubuntu 18.04 VM for the class is located here (Spring 2021):
+  - https://myharrisburgu-my.sharepoint.com/:u:/g/personal/ktran_harrisburgu_edu/EeOpBEJHGXNDn5Cj4-j19RYBZ-Pa2AOEwMwP5mebaHdw5Q?e=rcJanE
   
-### hadoop.zip file:
-  - https://myharrisburgu-my.sharepoint.com/:u:/g/personal/ktran_harrisburgu_edu/EZspkkfil1dPi7EpXviz3L8BY6pNTRcZTmErszd2p9nqPQ?e=e1t06I
-
 ## tools.zip file:
   - https://myharrisburgu-my.sharepoint.com/:u:/g/personal/ktran_harrisburgu_edu/EVTQDPLbK4pMrK_UK70_dOYBW75pbM4-01hq5Ofbo8HqyA?e=fX5agC
   
 ## apps.zip file:
   - https://myharrisburgu-my.sharepoint.com/:u:/g/personal/ktran_harrisburgu_edu/EX6suDepr4ZAr2o1ktWDEswBunXdx4B6IHEnvP872mVcrQ?e=VkK1EI
-  
+
+## Airline performance data is located here:
+  - https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HG7NV7
+
+## hadoop.zip file:
+  - https://myharrisburgu-my.sharepoint.com/:u:/g/personal/ktran_harrisburgu_edu/EZspkkfil1dPi7EpXviz3L8BY6pNTRcZTmErszd2p9nqPQ?e=e1t06I
+
 ## Instructions
 Follow the following instructions:
 - Download & Install Oracle Virtual Box software and the 'extension pack'
