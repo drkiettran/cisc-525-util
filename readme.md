@@ -13,6 +13,9 @@ the necessary tools for the CISC 525 Big Data Architecture class.
 ### Ubuntu 18.04 VM for the class is located here (Spring 2021):
   - https://myharrisburgu-my.sharepoint.com/:u:/g/personal/ktran_harrisburgu_edu/EeOpBEJHGXNDn5Cj4-j19RYBZ-Pa2AOEwMwP5mebaHdw5Q?e=rcJanE
   
+This version of ubuntu is more accurate (11 January 2021). If possible, please consider using this link:
+  - https://myharrisburgu-my.sharepoint.com/:u:/g/personal/ktran_harrisburgu_edu/EQcKoWN9RWFAhF40jCZix00B3a75Q-Wzz6g1BKD657zhaw?e=NamtsV
+
 ## tools.zip file:
   - https://myharrisburgu-my.sharepoint.com/:u:/g/personal/ktran_harrisburgu_edu/EVTQDPLbK4pMrK_UK70_dOYBW75pbM4-01hq5Ofbo8HqyA?e=fX5agC
   
