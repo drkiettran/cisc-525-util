@@ -1,4 +1,5 @@
 .ipynb_checkpoints/
+metastore_db/
 .metals/
 *.log
 .attach_*
