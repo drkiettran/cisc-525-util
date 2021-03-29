@@ -1,10 +1,10 @@
 #!/bin/bash
 echo 'starting ELK 7.6.1'
+export ELK_HOME=~/apps/elk
+cd $ELK_HOME
+gnome-terminal --title="starting ElasticSearch" -- $ELK_HOME/elasticsearch-7.6.1/bin/elasticsearch
 
-cd ~/apps/elk-7.6.1
-gnome-terminal --title="starting ElasticSearch" -- ~/apps/elk-7.6.1/elasticsearch-7.6.1/bin/elasticsearch
+gnome-terminal --title="starting Logstash" -- $ELK_HOME/logstash-7.6.1/bin/logstash
 
-gnome-terminal --title="starting Logstash" -- ~/apps/elk-7.6.1/logstash-7.6.1/bin/logstash
-
-gnome-terminal --title="starting Kibana" -- ~/apps/elk-7.6.1/kibana-7.6.1-linux-x86_64/bin/kibana
+gnome-terminal --title="starting Kibana" -- $ELK_HOME/kibana-7.6.1-linux-x86_64/bin/kibana
 
