@@ -1,7 +1,7 @@
-# CISC 525 - Big Data Architecture - Spring 2021
+# CISC 525 - Big Data Architecture - Summer 2021
 This file is updated each semester and it is used as a starting point the the class.
 
-Last updated: **`21 December 2020`**
+Last updated: **`29 April 2021`**
 
 ## Important links:
 You can download the airline performance data, the virtual machine (VM) and all 
